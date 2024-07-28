@@ -26,6 +26,21 @@ const Dashboard = () => {
           {role === "kierownik" && <OrderList />}
         </div>
       </div>
+      // <div className="dashboard">
+      //   <div className="dashboard-header">
+      //     {/* <h1>Dashboard</h1> */}
+      //     <div className="header-right">
+      //       <span className="role-display">Rola: {role}</span>
+      //       <button onClick={handleLogout}>Wyloguj</button>
+      //     </div>
+      //   </div>
+      //   <div className="content">
+      //     {(role === "technik" || role === "koordynator") && (
+      //       <DeviceList role={role} />
+      //     )}
+      //     {role === "kierownik" && <OrderList />}
+      //   </div>
+      // </div>
     );
 };
 
